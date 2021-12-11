@@ -1,9 +1,8 @@
 .table {
     background-color: royalblue;
-    display: table;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-
 }
 
 .buttons {
@@ -14,8 +13,8 @@ button {
     height: 100px;
     width: 40%;
 
-    padding: 15px 32px;
-    font-size: 40px;
+    
+    font-size: 2vw;
     font-weight: 700;
     color: white;
     text-align: center;
@@ -43,6 +42,5 @@ button {
 .notActive {
 
     background-color: #f2a750;
-
-
 }
+
