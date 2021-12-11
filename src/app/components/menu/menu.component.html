@@ -1,0 +1,7 @@
+<div class="table">
+    <app-mark *ngFor="let mark of allMarks" [mark]="mark" (newMark)="onClickMark($event)"></app-mark>
+</div>
+<div class="buttons">
+    <button type="button" [ngClass]="size == 5 ? 'isActive' : 'notActive'" (click)="clickCash()">CASH</button>
+    <button type="button" [ngClass]="size == 5 ? 'isActive' : 'notActive'" (click)="clearTotal()">CLEAR</button>
+</div>

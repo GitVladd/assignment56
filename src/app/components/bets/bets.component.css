@@ -1,0 +1,32 @@
+table{
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 40px;
+
+}
+img{
+    margin-top:5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+button{
+    
+    border-radius: 100%;
+    border-width: 7px;
+    border-color: black;
+    border-style:solid;
+
+    width: 200px;
+    height: 200px;
+    background-color: #1726b0;
+
+    color: white;
+    font-size: 70px;
+    font-weight: 800;
+}
+button:hover{
+    font-size: 80px;
+    background-color: #3f4bb5;
+}

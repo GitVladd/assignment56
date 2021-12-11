@@ -1,0 +1,48 @@
+.table {
+    background-color: royalblue;
+    display: table;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.buttons {
+    background-color: royalblue;
+}
+
+button {
+    height: 100px;
+    width: 40%;
+
+    padding: 15px 32px;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+
+
+
+    border-radius: 30px;
+    border-color: black;
+    border-style: solid;
+    border-width: 4px;
+
+    margin: 5%;
+}
+
+.isActive {
+    background-color: #f08b18;
+
+
+}
+
+.isActive:hover {
+    background-color: #f29b38;
+}
+
+.notActive {
+
+    background-color: #f2a750;
+
+
+}

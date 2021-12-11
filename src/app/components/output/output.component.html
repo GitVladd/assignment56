@@ -1,0 +1,7 @@
+<div class="outputs">
+    <h1>Selected Marks: </h1>
+    <div class="marks" *ngFor="let mark of allMarks">
+        <div *ngIf="mark.isTaken">Mark: {{mark.value}}</div>
+    </div>
+    <div class="total">Total: {{totalAmount}}$</div>
+</div>

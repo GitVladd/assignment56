@@ -1,0 +1,28 @@
+.outputs {
+    min-height: 700px;
+    position: relative;
+    margin-top: 10%;
+    margin-left:10%;
+    margin-right:10%;
+    /* border: 30px solid royalblue */
+}
+
+.total {
+    font-size: 40px;
+    font-weight: 1000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    bottom: 0;
+}
+
+.marks{
+    font-size: 30px;
+    font-weight: 1000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 1000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

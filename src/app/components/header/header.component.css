@@ -1,0 +1,12 @@
+h1{
+    /* padding-top: 2%;
+    padding-bottom: 2%; */
+    margin: 0;
+    padding: 1%;
+    text-align: center;
+    background-color: royalblue;
+    font-size:100px;
+    color: yellow;
+    word-wrap: break-word;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

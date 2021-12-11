@@ -1,0 +1,43 @@
+.boxTrue {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+
+    color:gold;
+    font-size: 50px;
+    font-weight: 1000;
+
+    background-color: black;
+
+    border-width: 5px;
+    border-color: gold;
+    border-radius: 10px;
+    border-style:solid;
+}
+
+.boxFalse {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+
+    color:gold;
+    font-size: 50px;
+    font-weight: 1000;
+
+    background-color: black;
+
+    border-radius: 10px;
+    border-style:solid;
+
+}
+.boxFalse:hover {
+    background-color: grey;
+}
+.boxTrue:hover {
+    background-color: grey;
+}
+
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
